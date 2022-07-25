@@ -116,7 +116,7 @@
               </li>
 
               <md-list-item
-                href="https://twitter.com/CreativeTim"
+                href="https://twitter.com/TechWithYevgen"
                 target="_blank"
               >
                 <i class="fab fa-twitter"></i>
@@ -126,7 +126,7 @@
                 >
               </md-list-item>
               <md-list-item
-                href="https://www.facebook.com/CreativeTim"
+                href="https://www.facebook.com/groups/1020010448700716"
                 target="_blank"
               >
                 <i class="fab fa-facebook-square"></i>
@@ -136,7 +136,7 @@
                 >
               </md-list-item>
               <md-list-item
-                href="https://www.instagram.com/CreativeTimOfficial"
+                href="https://www.instagram.com/TechWorldWithYevgen/"
                 target="_blank"
               >
                 <i class="fab fa-instagram"></i>
