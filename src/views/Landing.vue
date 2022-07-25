@@ -16,7 +16,7 @@
               href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
               class="md-success md-lg"
               target="_blank"
-              ><i class="fas fa-play"></i> Watch video</md-button
+              ><i class="fas fa-play"></i> Наш ролик</md-button
             >
           </div>
         </div>
@@ -182,7 +182,7 @@ export default {
   props: {
     header: {
       type: String,
-      default: require("@/assets/img/bg7.jpg")
+      default: require("@/assets/img/bg3.jpg")
     },
     teamImg1: {
       type: String,

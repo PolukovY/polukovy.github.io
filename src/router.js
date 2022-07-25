@@ -5,7 +5,9 @@ import Landing from "./views/Landing.vue";
 import Profile from "./views/Profile.vue";
 import MainNavbar from "./layout/MainNavbar.vue";
 import MainFooter from "./layout/MainFooter.vue";
-import Traning from "@/views/Traning";
+import TraningSQLStarter from "@/views/TraningSQLStarter";
+import Login from "@/views/Login";
+import TraningSqlLikePro from "@/views/TraningSqlLikePro";
 
 Vue.use(Router);
 
@@ -30,9 +32,18 @@ export default new Router({
       }
     },
     {
-      path: "/trainings/1",
+      path: "/trainings/sql-starter",
       name: "training",
-      components: { default: Traning, header: MainNavbar, footer: MainFooter },
+      components: { default: TraningSQLStarter, header: MainNavbar, footer: MainFooter },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: "black" }
+      }
+    },
+    {
+      path: "/trainings/sql-like-a-pro",
+      name: "training",
+      components: { default: TraningSqlLikePro, header: MainNavbar, footer: MainFooter },
       props: {
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: "black" }
@@ -42,6 +53,15 @@ export default new Router({
       path: "/profile",
       name: "profile",
       components: { default: Index, header: MainNavbar, footer: MainFooter },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: "black" }
+      }
+    },
+    {
+      path: "/login",
+      name: "login",
+      components: { default: Login, header: MainNavbar, footer: MainFooter },
       props: {
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: "black" }
