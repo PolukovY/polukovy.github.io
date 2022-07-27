@@ -7,29 +7,8 @@
     <div class="main main-raised">
       <div class="section profile-content">
         <div class="container">
-          <div class="md-layout">
-            <div class="md-layout-item md-size-50 mx-auto">
-              <div class="profile">
-                <div class="avatar">
-                  <img
-                    :src="img"
-                    alt="Circle Image"
-                    class="img-raised rounded-circle img-fluid"
-                  />
-                </div>
-                <div class="name">
-                  <h3 class="title">Yevgen Polukov</h3>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="description text-center">
-            <p>
-              Завдання тренінгів — навчити вас вчитися і дізнаватися щось нове,
-              чи закрити прогалини. У вас буде можливість вибрати тему яку ви
-              хочете покршити, а ми зробими лекцію цікавою і не нудною.
-            </p>
-          </div>
+          <AvatarHeaderSection />
+          <TrainingGoldSection />
           <div class="profile-tabs">
             <tabs
               :tab-name="['SQL', 'Java']"
@@ -81,19 +60,20 @@
 
 <script>
 import { Tabs } from "@/components";
+import TrainingGoldSection from "@/views/components/TrainingGoldSection";
+import AvatarHeaderSection from "@/views/components/AvatarHeaderSection";
+
 export default {
   components: {
-    Tabs
+    Tabs,
+    TrainingGoldSection,
+    AvatarHeaderSection
   },
   bodyClass: "profile-page",
   props: {
     header: {
       type: String,
       default: require("@/assets/img/bg3.jpg")
-    },
-    img: {
-      type: String,
-      default: require("@/assets/img/faces/christian.jpg")
     }
   },
   computed: {

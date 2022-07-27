@@ -34,7 +34,11 @@ export default new Router({
     {
       path: "/trainings/sql-starter",
       name: "training",
-      components: { default: TraningSQLStarter, header: MainNavbar, footer: MainFooter },
+      components: {
+        default: TraningSQLStarter,
+        header: MainNavbar,
+        footer: MainFooter
+      },
       props: {
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: "black" }
@@ -43,7 +47,11 @@ export default new Router({
     {
       path: "/trainings/sql-like-a-pro",
       name: "training",
-      components: { default: TraningSqlLikePro, header: MainNavbar, footer: MainFooter },
+      components: {
+        default: TraningSqlLikePro,
+        header: MainNavbar,
+        footer: MainFooter
+      },
       props: {
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: "black" }

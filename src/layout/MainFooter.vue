@@ -11,7 +11,9 @@
             Виникли питання пишіть нам:
           </li>
           <li>
-            <a href="mailto: info@email.todo" target="_blank">info@email.todo</a>
+            <a href="mailto: info@email.todo" target="_blank"
+              >info@email.todo</a
+            >
           </li>
         </ul>
       </nav>

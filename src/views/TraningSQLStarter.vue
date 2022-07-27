@@ -7,29 +7,8 @@
     <div class="main main-raised">
       <div class="section profile-content">
         <div class="container">
-          <div class="md-layout">
-            <div class="md-layout-item md-size-50 mx-auto">
-              <div class="profile">
-                <div class="avatar">
-                  <img
-                    :src="img"
-                    alt="Circle Image"
-                    class="img-raised rounded-circle img-fluid"
-                  />
-                </div>
-                <div class="name">
-                  <h3 class="title">Yevgen Polukov</h3>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="description text-center">
-            <p>
-              Завдання тренінгів — навчити вас вчитися і дізнаватися щось нове,
-              чи закрити прогалини. У вас буде можливість вибрати тему яку ви
-              хочете покршити, а ми зробими лекцію цікавою і не пошкодуєте.
-            </p>
-          </div>
+          <AvatarHeaderSection />
+          <TrainingGoldSection />
           <div class="profile-tabs">
             <tabs
               :tab-name="['Деталі тренінгу', 'Реєстрація']"
@@ -41,8 +20,8 @@
               <template slot="tab-pane-1">
                 <a href="#"> <h4>1. SQL starter</h4></a>
                 <p>
-                  <b>SQL для аналізу даних</b> – це курс для початківців, який
-                  навчить вас усього, що вам потрібно знати, щоб почати
+                  <b>🇺🇦 SQL для аналізу даних</b> – це курс для початківців,
+                  який навчить вас усього, що вам потрібно знати, щоб почати
                   використовувати SQL для запиту даних. <br />
                   Я збираюся викладати це так, як навчився, працюючи у великих
                   технологічних компаніях. <br />
@@ -60,23 +39,12 @@
                   <li>Group by</li>
                   <li>Having</li>
                   <li>Distinct</li>
-                  <li>Union</li>
                   <li>Join</li>
                 </ul>
                 В кожному прикладі буде як теорія так і практика.<br />
               </template>
               <template slot="tab-pane-2">
-                <div class="tim-typo"><h5>Поїхали:</h5></div>
-                <div class="tim-typo">
-                  <ul type="square">
-                    <li>
-                      Додай наш <a href="https://t.me/TechWorld_With_Yevgen_Bot">Телеграм</a>. Вибери курс який
-                      цікавить і отримай ціну.
-                    </li>
-                    <li>Оплачуєте і відправляєте нам квитанцію чи фото.</li>
-                    <li>Отримуєте доступ до тренінгу.</li>
-                  </ul>
-                </div>
+                <RegistrationSection />
               </template>
             </tabs>
           </div>
@@ -88,9 +56,15 @@
 
 <script>
 import { Tabs } from "@/components";
+import RegistrationSection from "@/views/components/RegistrationSection";
+import TrainingGoldSection from "@/views/components/TrainingGoldSection";
+import AvatarHeaderSection from "@/views/components/AvatarHeaderSection";
 export default {
   components: {
-    Tabs
+    Tabs,
+    RegistrationSection,
+    TrainingGoldSection,
+    AvatarHeaderSection
   },
   bodyClass: "profile-page",
   props: {
