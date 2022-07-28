@@ -42,13 +42,13 @@
                 <a href="#/trainings/sql-like-a-pro">👉 детальніше</a><br />
               </template>
               <template slot="tab-pane-2">
-                <a href="#">
+                <a href="#/trainings/optional-api">
                   <h4>3. 🇺🇦 Працюємо з Optional API правильно</h4></a
                 >
-                Collaboratively administrate empowered markets via plug-and-play
-                networks. Dynamically procrastinate B2C users after installed
-                base benefits.<br />
-                <a href="#">👉 детальніше</a><br />
+                Поговоримо про Optional для чого він потрібен, як він нам
+                допомагає. А також розглянемо приклади як можна писати правильні
+                і не правильні варіанти його використання.<br />
+                <a href="#/trainings/optional-api">👉 детальніше</a><br />
               </template>
             </tabs>
           </div>

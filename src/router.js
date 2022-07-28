@@ -8,6 +8,7 @@ import MainFooter from "./layout/MainFooter.vue";
 import TraningSQLStarter from "@/views/TraningSQLStarter";
 import Login from "@/views/Login";
 import TraningSqlLikePro from "@/views/TraningSqlLikePro";
+import OptionalApi from "@/views/OptionalApi";
 
 Vue.use(Router);
 
@@ -49,6 +50,19 @@ export default new Router({
       name: "training",
       components: {
         default: TraningSqlLikePro,
+        header: MainNavbar,
+        footer: MainFooter
+      },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: "black" }
+      }
+    },
+    {
+      path: "/trainings/optional-api",
+      name: "training",
+      components: {
+        default: OptionalApi,
         header: MainNavbar,
         footer: MainFooter
       },
