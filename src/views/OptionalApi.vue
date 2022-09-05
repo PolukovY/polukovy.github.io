@@ -18,7 +18,7 @@
               color-button="success"
             >
               <template slot="tab-pane-1">
-                <h4>3. Працюємо з Optional API правильно</h4>
+                <h4>Працюємо з Optional API правильно</h4>
                 <p>
                   🇺🇦 Поговоримо про Optional для чого він потрібен, як він нам
                   допомагає. А також розглянемо приклади як можна писати
@@ -68,7 +68,7 @@ export default {
     },
     img: {
       type: String,
-      default: require("@/assets/img/faces/christian.jpg")
+      default: require("@/assets/img/faces/avatar.jpeg")
     }
   },
   computed: {

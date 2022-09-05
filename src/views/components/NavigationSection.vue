@@ -292,7 +292,7 @@ export default {
     },
     img: {
       type: String,
-      default: require("@/assets/img/faces/avatar.jpg")
+      default: require("@/assets/img/faces/avatar.jpeg")
     }
   },
   computed: {

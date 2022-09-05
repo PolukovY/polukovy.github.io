@@ -201,7 +201,7 @@
 export default {
   data() {
     return {
-      image: require("@/assets/img/faces/avatar.jpg"),
+      image: require("@/assets/img/faces/avatar.jpeg"),
       responsive: false
     };
   },
