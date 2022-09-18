@@ -38,6 +38,10 @@
                 Ну що реєструйся буде багато корисної інформації.<br />
               </template>
               <template slot="tab-pane-2">
+                <PayOnlineSection
+                  course-id="1-0"
+                  currentUrl="/#/trainings/optional-api"
+                />
                 <RegistrationSection />
               </template>
             </tabs>
@@ -53,12 +57,14 @@ import { Tabs } from "@/components";
 import RegistrationSection from "@/views/components/RegistrationSection";
 import TrainingGoldSection from "@/views/components/TrainingGoldSection";
 import AvatarHeaderSection from "@/views/components/AvatarHeaderSection";
+import PayOnlineSection from "@/views/components/PayOnlineSection";
 export default {
   components: {
     Tabs,
     RegistrationSection,
     TrainingGoldSection,
-    AvatarHeaderSection
+    AvatarHeaderSection,
+    PayOnlineSection
   },
   bodyClass: "profile-page",
   props: {

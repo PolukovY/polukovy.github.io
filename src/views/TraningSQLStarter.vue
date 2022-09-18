@@ -75,6 +75,10 @@
                 </ul>
               </template>
               <template slot="tab-pane-2">
+                <PayOnlineSection
+                  course-id="0-0"
+                  current-url="/#/trainings/sql-starter"
+                />
                 <RegistrationSection />
               </template>
             </tabs>
@@ -88,6 +92,7 @@
 <script>
 import { Tabs } from "@/components";
 import RegistrationSection from "@/views/components/RegistrationSection";
+import PayOnlineSection from "@/views/components/PayOnlineSection";
 import TrainingGoldSection from "@/views/components/TrainingGoldSection";
 import AvatarHeaderSection from "@/views/components/AvatarHeaderSection";
 export default {
@@ -95,7 +100,8 @@ export default {
     Tabs,
     RegistrationSection,
     TrainingGoldSection,
-    AvatarHeaderSection
+    AvatarHeaderSection,
+    PayOnlineSection
   },
   bodyClass: "profile-page",
   props: {
