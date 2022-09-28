@@ -11,8 +11,8 @@
             Виникли питання пишіть нам:
           </li>
           <li>
-            <a href="mailto: info@email.todo" target="_blank"
-              >info@email.todo</a
+            <a href="mailto:TechWorldWithYevgen@gmail.com" target="_blank"
+              >TechWorldWithYevgen@gmail.com</a
             >
           </li>
         </ul>

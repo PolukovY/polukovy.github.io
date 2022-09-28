@@ -38,8 +38,8 @@
                 Ну що реєструйся буде багато корисної інформації.<br />
               </template>
               <template slot="tab-pane-2">
-                <PayOnlineSection
-                  course-id="1-0"
+                <RegistrationGoogleFormSection
+                  url="https://docs.google.com/forms/d/1KPG1yafx_oxm-SMIJrWdJaa4KiUC6yDkkIdarNzvuZ8/prefill"
                   currentUrl="/#/trainings/optional-api"
                 />
                 <RegistrationSection />
@@ -57,14 +57,14 @@ import { Tabs } from "@/components";
 import RegistrationSection from "@/views/components/RegistrationSection";
 import TrainingGoldSection from "@/views/components/TrainingGoldSection";
 import AvatarHeaderSection from "@/views/components/AvatarHeaderSection";
-import PayOnlineSection from "@/views/components/PayOnlineSection";
+import RegistrationGoogleFormSection from "@/views/components/RegistrationGoogleFormSection";
 export default {
   components: {
     Tabs,
     RegistrationSection,
     TrainingGoldSection,
     AvatarHeaderSection,
-    PayOnlineSection
+    RegistrationGoogleFormSection
   },
   bodyClass: "profile-page",
   props: {
