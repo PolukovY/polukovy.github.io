@@ -75,6 +75,15 @@
                 <p>Тренінги</p>
               </md-list-item>
 
+              <md-list-item
+                href="https://blog.techworld-with-yevgen.com/"
+                @click="scrollToElement()"
+                v-if="showDownload"
+              >
+                <i class="material-icons">book</i>
+                <p>Блог</p>
+              </md-list-item>
+
               <li class="md-list-item" v-else>
                 <a
                   href="javascript:void(0)"
