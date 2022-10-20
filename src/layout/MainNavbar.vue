@@ -76,7 +76,7 @@
               </md-list-item>
 
               <md-list-item
-                href="https://blog.techworld-with-yevgen.com/"
+                href="https://techworld-with-yevgen.com/blog/"
                 @click="scrollToElement()"
                 v-if="showDownload"
               >
