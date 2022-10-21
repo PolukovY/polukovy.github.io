@@ -39,7 +39,7 @@
               </template>
               <template slot="tab-pane-2">
                 <RegistrationGoogleFormSection
-                  url="https://docs.google.com/forms/d/e/1FAIpQLSeZuqT9OSstcSPeEK5m3md1hPlmIsy68XwaoKcfxDIVVM_mIQ/viewform?usp=sharing"
+                  url="https://forms.gle/iuXc9Rhqyz3mHd5i9"
                   currentUrl="/#/trainings/optional-api"
                 />
                 <RegistrationSection />

@@ -75,11 +75,10 @@
                 </ul>
               </template>
               <template slot="tab-pane-2">
-                <PayOnlineSection
-                  course-id="0-0"
-                  current-url="/#/trainings/sql-starter"
+                <PreRegistrationGoogleFormSection
+                  url="https://forms.gle/9bCtYTWyrcvVUwa99"
+                  currentUrl="/#/trainings/sql-starter"
                 />
-                <RegistrationSection />
               </template>
             </tabs>
           </div>
@@ -91,17 +90,15 @@
 
 <script>
 import { Tabs } from "@/components";
-import RegistrationSection from "@/views/components/RegistrationSection";
-import PayOnlineSection from "@/views/components/PayOnlineSection";
+import PreRegistrationGoogleFormSection from "@/views/components/PreRegistrationGoogleFormSection";
 import TrainingGoldSection from "@/views/components/TrainingGoldSection";
 import AvatarHeaderSection from "@/views/components/AvatarHeaderSection";
 export default {
   components: {
     Tabs,
-    RegistrationSection,
+    PreRegistrationGoogleFormSection,
     TrainingGoldSection,
-    AvatarHeaderSection,
-    PayOnlineSection
+    AvatarHeaderSection
   },
   bodyClass: "profile-page",
   props: {
