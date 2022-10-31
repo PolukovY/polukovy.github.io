@@ -9,6 +9,7 @@ import TraningSQLStarter from "@/views/TraningSQLStarter";
 import Login from "@/views/Login";
 import TraningSqlLikePro from "@/views/TraningSqlLikePro";
 import OptionalApi from "@/views/OptionalApi";
+import Algo from "@/views/Algo";
 
 Vue.use(Router);
 
@@ -63,6 +64,19 @@ export default new Router({
       name: "training",
       components: {
         default: OptionalApi,
+        header: MainNavbar,
+        footer: MainFooter
+      },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: "black" }
+      }
+    },
+    {
+      path: "/trainings/algo",
+      name: "training",
+      components: {
+        default: Algo,
         header: MainNavbar,
         footer: MainFooter
       },
