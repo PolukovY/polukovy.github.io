@@ -5,11 +5,8 @@
       <ul type="square">
         <li>
           <a v-bind:href="currentUrl" v-on:click="onButtonClick(url)"
-            >Отримати деталі платежу і оплати зараз чи пізніше</a
+            >Реєстрація та оплата</a
           >
-        </li>
-        <li>
-          Отримуєте доступ до стріму чи лінк на вже проведений
         </li>
       </ul>
     </div>

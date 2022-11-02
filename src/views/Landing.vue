@@ -128,9 +128,9 @@
 
                     <md-card-content>
                       <p class="card-description">
-                        Займаюся підборкою персонало вже багато років.
+                        Займаюся підборкою персоналу вже багато років.
                         Консультація кандидатів на протязі інтерв'ю. Адаптація
-                        кандата в перші дні. Організація заходів.
+                        кандидата в перші дні. Організація заходів.
                       </p>
                     </md-card-content>
 
@@ -157,15 +157,20 @@
           </div>
         </div>
 
-        <md-button class="md-twitter"
-          ><i class="fab fa-twitter"></i>Tweet</md-button
+        <a
+          href="https://twitter.com/intent/tweet?text=Вчимося разом ефективно з TechWorld-With-Yevgen&url=https://techworld-with-yevgen.com&tw_p=tweetbutton"
         >
-        <md-button class="md-facebook"
-          ><i class="fab fa-facebook-square"></i> Share</md-button
+          <md-button class="md-twitter">
+            <i class="fab fa-twitter"></i>Tweet
+          </md-button>
+        </a>
+        <a
+          href="https://www.facebook.com/sharer.php?u=https://techworld-with-yevgen.com&t=Вчимося разом ефективно з TechWorld-With-Yevgen"
         >
-        <md-button class="md-google"
-          ><i class="fab fa-google-plus"></i> Share</md-button
-        >
+          <md-button class="md-facebook"
+            ><i class="fab fa-facebook-square"></i> Share</md-button
+          >
+        </a>
         <md-button class="md-github"
           ><i class="fab fa-github"></i> Star</md-button
         >
